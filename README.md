@@ -18,7 +18,7 @@ SNS를 보다 보면, 연예인이나 가상 인물의 립싱크 영상을 쉽�
 ## 방법론
 
 ### PIPELINE
-
+![Model Pipeline](images/pipeline.png)
 
 **Input**
 
@@ -42,7 +42,7 @@ SNS를 보다 보면, 연예인이나 가상 인물의 립싱크 영상을 쉽�
 
 **Wav2Lip**은 음성 오디오와 얼굴 이미지를 받아, 입 모양이 정밀하게 맞는 립싱크 비디오를 생성하는 모델입니다. 기본 구조는 다음과 같습니다. 
 
-![image.png](attachment:5e28bd9a-670f-4f3f-8b4b-6998c567074f:image.png)
+![Wav2Lip Architecture](images/Wav2Lip.png)
 
 출처: https://arxiv.org/abs/2008.10010
 
@@ -54,8 +54,8 @@ SNS를 보다 보면, 연예인이나 가상 인물의 립싱크 영상을 쉽�
 
 *Face-to-Voice - 얼굴 기반 음성 생성*
 
-기존 Hyface는 입력된 얼굴 이미지로부터 해당 인물의 voice identity를 추정하고, 이 임베딩 정보를 바탕으로 voice conversion을 수행하는 **Face-to-Voice** 모델입니다. 기본 구조는 다음과 같습니다.
-
+기존 HYface는 입력된 얼굴 이미지로부터 해당 인물의 voice identity를 추정하고, 이 임베딩 정보를 바탕으로 voice conversion을 수행하는 **Face-to-Voice** 모델입니다. 기본 구조는 다음과 같습니다.
+![HYFace Architecture](images/hyface.png)
 
 출처: https://www.arxiv.org/abs/2408.09802
 
@@ -71,7 +71,7 @@ SNS를 보다 보면, 연예인이나 가상 인물의 립싱크 영상을 쉽�
 *Face-based Singing Voice Conversion*
 
 아래는 face-to-voice 구조의 HYFace에 singing voice conversion 기능을 추가하는 구조 수정 전략입니다. 
-
+![Modified HYFace Architecture](images/modified_hyface.png)
 
 **기존 HYFace 구조의 문제**
 
