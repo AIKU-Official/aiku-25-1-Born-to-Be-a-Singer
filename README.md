@@ -104,9 +104,12 @@ pip install -r requirements.txt
 ```
 
 ## 사용 방법
+### HYFace Weight
+따로 연락주세요
+### Wav2Lip
+Wav2Lip/checkpoints 안에 넣기  [Link](https://drive.google.com/file/d/15G3U08c8xsCkOqQxE38Z2XXDnPcOptNk/view)
 
-
-데모 페이지 실행
+### 데모 페이지 실행
 ```
 python3 app.py
 ```
