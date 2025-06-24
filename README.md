@@ -116,7 +116,7 @@ python3 app.py
 
 ## 예시 결과
 
-(사용 방법을 실행했을 때 나타나는 결과나 시각화 이미지를 보여주세요)
+[영상보러가기](https://file.notion.so/f/f/caac11a1-578d-4638-bf54-1d47cd3de8ed/7c96f407-8363-428b-baed-962b4be7efbd/final_output_(1).mp4?table=block&id=21ca7930-e09c-809f-89b6-e528e5117fe6&spaceId=caac11a1-578d-4638-bf54-1d47cd3de8ed&expirationTimestamp=1750809600000&signature=Il99UXNEiRwfRLiT0YWfnP0oFKmroElAr_rfZ0ghMo0&downloadName=final_output+%281%29.mp4)
 
 ## 팀원
   | 팀원                            | 역할                                       |
