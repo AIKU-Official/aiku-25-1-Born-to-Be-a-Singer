@@ -1,0 +1,14 @@
+torch
+torchaudio
+torchcrepe
+numpy
+librosa
+transformers
+edge_tts
+langdetect
+pyyaml
+einops
+ipython
+omegaconf
+spleeter
+gradio
